@@ -1,0 +1,33 @@
+<resources>
+  <string name="app_name">TMH</string>
+  <array name="news_title">
+    <item>Mới Nhất</item>
+    <item>Tin Thị Trường</item>
+    <item>Kiến Thức Trader</item>
+    <item>ICO</item>
+    <item>Hướng Dẫn</item>
+  </array>
+
+  <array name="news_url">
+    <!-- mới nhất -->
+    <item>http://tienmahoa.net.vn/wp-json/wp/v2/posts?_embed</item>
+    <!-- tin thị trường -->
+    <item>http://tienmahoa.net.vn/wp-json/wp/v2/posts?categories=14&amp;_embed</item>
+    <!-- kiến thức trader -->
+    <item>http://tienmahoa.net.vn/wp-json/wp/v2/posts?categories=19&amp;_embed</item>
+    <!-- ICO -->
+    <item>http://tienmahoa.net.vn/wp-json/wp/v2/posts?categories=24&amp;_embed</item>
+    <!-- Hướng dẫn-->
+    <item>http://tienmahoa.net.vn/wp-json/wp/v2/posts?categories=25&amp;_embed</item>
+  </array>
+
+
+  <string name="about">
+    Đề tài thực hiện : Ứng dụng đọc báo thông qua RSS
+    Sinh viên thực hiện :
+        + Phạm Thế Anh - 15110009
+        + Lê Quang Sơn - 15110010
+    Miêu tả : Ứng dụng đọc tin tức về bóng đá có nguồn từ page Bongda.com.vn
+    Version : 1.0
+  </string>
+</resources>
